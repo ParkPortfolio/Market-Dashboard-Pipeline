@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.marketdashboard.update</string>
+
+```
+<key>ProgramArguments</key>
+<array>
+    <string>/path/to/python3</string>
+    <string>/path/to/scripts/update_market_data.py</string>
+</array>
+
+<key>EnvironmentVariables</key>
+<dict>
+    <key>HOME</key>
+    <string>/Users/your-username</string>
+</dict>
+
+<key>StartCalendarInterval</key>
+<dict>
+    <key>Hour</key>
+    <integer>16</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+</dict>
+
+<key>StandardOutPath</key>
+<string>/path/to/logs/market_dashboard_update.log</string>
+
+<key>StandardErrorPath</key>
+<string>/path/to/logs/market_dashboard_update_error.log</string>
+```
+
+</dict>
+</plist>
