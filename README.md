@@ -84,13 +84,15 @@ PRIMARY KEY (ticker, trade_date)
 ```text
 market-dashboard-pipeline/
 ├── README.md
-├── images/
-│   └── dashboard_preview.png
+├── Market_Overview.png
+├── requirements.txt
+├── .gitignore
+├── launchd/
+│   └── com.example.marketdashboard.update.plist
 ├── scripts/
 │   └── update_market_data.py
-├── sql/
-│   └── create_stock_prices_table.sql
-└── requirements.txt
+└── sql/
+    └── create_stock_prices_table.sql
 ```
 
 ## Key Skills Demonstrated
